@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.header {
+  background: teal;
+  font-weight: 1.7em;
+  height: 70px;
+  line-height: 70px;
+}
+
+.header nav h1 {
+  float: left;
+  padding: 0 20px;
+}
+
+.fa-solid {
+  color: #fff;
+  padding-right: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header nav ul {
+  float: right;
+  list-style: none;
+  display: flex;
+  line-height: 70px;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.header nav ul li:hover {
+  background-color: black;
+}
+
+#banner {
+  float: left;
+  width: 100%;
+  height: calc(100vh - 70px);
+  display: flex;
+  text-align: center;
+  background: no-repeat center center/cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-content {
+  margin: auto 10%;
+  text-align: center;
+}
+
+.banner-content h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.banner-content p {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.btn {
+  border-radius: 20px;
+  height: 20px;
+  color: white;
+  margin-top: 20px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+  background-color: black;
+  border-radius: 30px;
+  padding: 12px;
+}
+
+.active{
+  padding: 20px;
+  background: #333;
+}
+
+.btn a:hover,
+.btn a:hover .fa-solid {
+  background-color: #fff;
+  color: black;
+}
+
+.features {
+  padding: 100px 0px 100px;
+  overflow: auto;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+.container {
+  margin: auto;
+  display: block;
+}
+.feature {
+  float: left;
+  width: 45%;
+  padding: 20px;
+}
+
+.btn{
+  display:inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.person {
+  background: url(../images/Reservation.jpg) center center/cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.reservation{
+  padding: 100px 0;
+  text-align: center
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #333;
+  height: auto;
+}
+
+.btn-dark:hover{
+  border: 1px solid #fff;
+  color: #333;
+  background: #fff;
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Ajoutez ce style dans votre CSS ou ici */
+#map {
+  height: 100px;
+  width: 50%;
+}
